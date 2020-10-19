@@ -1,0 +1,55 @@
+.photos {
+    padding: 10em;
+    border-radius: 10em;
+    color:darkred;
+    background-color: antiquewhite;
+    text-decoration-line: none;
+    font-size: 3em;
+
+}
+
+.photos:hover {
+    padding: 15em;
+    background-size: 10em;
+    border-radius: 10em;
+}
+
+.profileImage {
+    color: aqua;
+    text-align: center;
+    height: 10em;
+    font-family: fantasy;
+    background-image: url("/images/photo.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.cs142-detail-photosButton {
+    padding:0.35em 1.2em;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:sans-serif;
+    font-weight:300;
+    text-align:center;
+}
+
+.cs142-detail-photosButton:hover {
+    background-color: cyan;
+}
+
+.cs142-detail-location {
+    background-image:
+}
+
+.cs142-most-recent-photo {
+    font-size: 1.5em;
+    font-family: monospace;
+}
+
+.cs-142-no-photo {
+    color: darkblue;
+    font-family: monospace;
+    font-size: 1.5em;
+}

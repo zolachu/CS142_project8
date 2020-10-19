@@ -1,0 +1,12 @@
+<div>
+    <div class="cs142-photo">
+            <img  ng-src="/images/{{chosenPhoto.file_name}}" alt="/images/{{chosenPhoto}}" class="image" />
+    </div>
+   <div> date: {{chosenPhoto.date_time}}</div>
+   <ul> Comments:
+        <li ng-repeat="x in chosenPhoto.comments" >
+            <a href="#!/users/{{x.user._id}}" class="comments">{{x.user.first_name}} {{x.user.last_name}}</a> commented:
+            <p>{{x.comment}}</p>
+       </li>
+   </ul>
+</div>

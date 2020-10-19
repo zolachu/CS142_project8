@@ -1,0 +1,12 @@
+<div class="usersList"> Contacts
+</div>
+<div>
+   <ul>
+        <li ng-repeat="x in list.users" class="cs142-list-name">
+            <a class="name" href="#!/users/{{x._id}}" class="cs142-list-name">{{x.first_name}} {{x.last_name}}</a>
+            <div ng-if="checkbox" class="cs142-list-comments">
+                <a class="name-comment" href="#!/comments/{{x._id}}">comments</a>
+            </div>
+        </li>
+   </ul>
+</div>

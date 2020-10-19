@@ -1,0 +1,62 @@
+/*
+CSS for the CS142 project #5 main page
+
+Since CSS uses a global name space for classes we should use class names starting with
+cs142-main- here.
+*/
+
+
+cs142-main-body {
+    background-color: antiquewhite;
+}
+
+.cs142-main-homeButton {
+    background-color:darkred;
+}
+
+.homeButton {
+    background-color: floralwhite;
+    font-family: sans-serif;
+    text-decoration-line: none;
+}
+
+.cs142-main-version {
+    width: auto;
+/*    position: absolute;*/
+    color: aqua;
+}
+
+.cs142-main-nameShown {
+    text-align: center;
+    position: inherit;
+    font-size: bold;
+    color: azure;
+}
+
+.cs142-main-nameShown:hover {
+    color: orange;
+}
+
+.cs142-main-advanced-button:hover {
+    background-color: #3e8e41
+}
+
+.cs142-main-advanced-button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+.md-whiteframe-z2 {
+    background-image: url("/images/maxresdefault.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#content {
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}

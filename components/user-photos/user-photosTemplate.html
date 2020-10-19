@@ -1,0 +1,31 @@
+<div class="cs142-photos">
+    <span ng-if="photos.photoList.length==0">No Photos Yet</span>
+   <ul ng-if="!checkbox">
+       <li ng-repeat="u in photos.photoList">
+            <div class="cs142-photo">
+                <a href="#!/recent-popular/{{u._id}}" ng-click="choose(u)">
+                    <img ng-src="/images/{{u.file_name}}" alt="/images/{{u}}" class="image" />
+                </a>
+            </div>
+           <span ng-show="photos.userMatch(u.user_id)"> <button ng-click="deletePhoto(u)">Delete this photo</button></span>
+           <div> date: {{u.date_time}}</div>
+           <md-button ng-click="photos.like(u)" id="like{{u._id}}">LIKE OR UNLIKE</md-button>
+            <p id="{{u._id}}">likes: {{u.likes.length}}</p>
+
+           <form ng-submit="addComment(u)">
+                <input type="text"  ng-model="photos.text"  ng-minlength="1">
+                <input type="submit">
+            </form>
+           <ul> Comments:
+                <li ng-repeat="x in u.comments" >
+                    <a href="#!/users/{{x.user._id}}" class="comments" >{{x.user.first_name}} {{x.user.last_name}}</a> commented:
+                    <p>{{x.comment}}</p>
+                    <span  ng-if="photos.userMatch(x.user._id)">
+                        <button ng-click="deleteComment(u, x)"> Delete Comment </button>
+                    </span>
+               </li>
+           </ul>
+
+       </li>
+   </ul>
+</div>

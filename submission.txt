@@ -1,0 +1,66 @@
+Project #8 - Submission form
+
+Please fill in this form and submit it with your project #8.
+
+Enter no more than 5 user stories that you did for the assignment that you would like to be
+graded on. For each story include the following information:
+
+Story number and name:
+Story points:
+Brief description to see the story in action:
+
+Total Story Points:
+
+Marketing Video URL (ensure permissions are set to public viewing):
+
+Is it OK with you if we post your Marketing Video URL on the class discussion forum?
+
+Any special instructions for Grading (should be easy to run app from new machine):
+
+
+
+
+ Story number and name:  Extend user profile detail with usage
+ Story points:  3
+ Brief description to see the story in action:
+ Most recent uploaded photo and most popular photo. Date-time and number of likes.
+
+ Total Story Points: 3
+
+ Marketing Video URL (ensure permissions are set to public viewing): https://youtu.be/EPsnD2FqGDsa
+
+ Is it OK with you if we post your Marketing Video URL on the class discussion forum? Yes
+
+ Instructions for Grading (should be easy to run app from new machine): None
+
+
+
+
+ Story number and name:  Deleting Comments, Photos, and users
+ Story points:  4
+ Brief description to see the story in action:
+ Delete user, comment or photo
+
+ Total Story Points: 4
+
+ Marketing Video URL (ensure permissions are set to public viewing): https://youtu.be/EPsnD2FqGDs
+
+ Is it OK with you if we post your Marketing Video URL on the class discussion forum? Yes
+
+ Instructions for Grading (should be easy to run app from new machine): None
+
+
+ Story number and name:  Photo like votes
+ Story points:  4
+ Brief description to see the story in action:
+ Like photo or unlike
+
+ Total Story Points: 4
+
+ Marketing Video URL (ensure permissions are set to public viewing): https://youtu.be/EPsnD2FqGDs
+
+ Is it OK with you if we post your Marketing Video URL on the class discussion forum? Yes
+
+ Instructions for Grading (should be easy to run app from new machine): None
+
+

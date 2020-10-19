@@ -1,0 +1,41 @@
+
+<p class="profileImage">{{detail.initials}}</p>
+
+ <div>
+    <span ng-if="userMatch()"><button ng-click="delete()">Delete user</button></span>
+</div>
+<div>User Profiles
+    <p class="cs142-detail-name">Name: {{detail.first_name}} {{detail.last_name}}</p>
+    <p class="cs142-detail-occupation">Occupation: {{detail.occupation}}</p>
+    <p class="cs142-detail-description">Description: {{detail.description}}</p>
+    <p class="cs142-detail-location">Location: {{detail.location}}</p>
+    <button><a aria-label="Photo of user{{x}}" href="#!/photos/{{detail._id}}"  class="cs142-detail-photosButton">photos</a></button>
+</div>
+
+<div  class="cs142-most-recent-photo">
+    Most recent uploaded photo
+    <div ng-if="!noPhotos">
+         <a ng-href="#!/recent-popular/{{photos.photo._id}}" ng-click="choose(photos.photo)" >
+             <img ng-src="/images/{{photos.photo.file_name}}" alt="/images/{{photos.photo}}" class="image" ng-click="choose(photos.photo)" />
+        </a>
+        <p>date time: {{photos.date_time}}</p>
+        <ul class="comments"> Comments:
+            <li ng-repeat="x in photos.commentList" >
+                <a ng-href="#!/users/{{x.user._id}}">{{x.user.first_name}} {{x.user.last_name}} commented: </a>
+                <p>{{x.comment}}</p>
+           </li>
+        </ul>
+        <div>Popular photo:
+            <a ng-href="#!/recent-popular/{{photos.popularPhoto._id}}" ng-click="choose(photos.popularPhoto)" >
+                <img ng-src="/images/{{photos.popularPhoto.file_name}}" alt="/images/{{photos.popularPhoto}}" class="image" />
+            </a>
+            <p>number of comments: {{photos.maxLength}}</p>
+
+        </div>
+    </div>
+    <div ng-if="noPhotos" class="cs-142-no-photo">
+        {{detail.first_name}} has no photos yet.
+    </div>
+
+</div>
+

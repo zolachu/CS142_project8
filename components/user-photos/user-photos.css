@@ -1,0 +1,45 @@
+.comments {
+    font-family: sans-serif;
+    color: blue;
+    background-color: azure;
+    text-decoration-line: none;
+    border-style: solid;
+}
+
+.comments:hover {
+    font-size: 1.1em;
+    background-color: azure;
+    text-decoration-line: none;
+}
+
+img {
+    opacity: 1;
+    display: block;
+    width: 15em;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    outline-color: black;
+    outline-width: medium;
+    outline: medium;
+    border-color:black;
+}
+.image {
+    border-color: black;
+}
+
+.cs142-photos-buttons:hover {
+    position: relative;
+}
+
+.cs142-photos {
+    color: black;
+    font-weight: bolder;
+    font-display: auto;
+    font-family: sans-serif;
+    font: 30px;
+}
+
+.cs142-photo {
+    position: static;
+}

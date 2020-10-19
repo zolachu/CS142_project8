@@ -1,0 +1,31 @@
+.cs142-list-name {
+    position: relative;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    background-position: center;
+    padding: 5px;
+}
+
+.cs142-list-name:hover {
+    font-size: 1.2em;
+    color: crimson;
+    text-decoration-line: none;
+}
+
+.usersList {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+
+.cs142-list-comments {
+    display: inline-block;
+    border-radius: 10px;
+    background-color: aqua;
+    text-decoration-line: none;
+}
+.cs142-list-comments:hover {
+    font-size: 1.2em;
+}
